@@ -9,12 +9,14 @@
         <module name="microservice" />
         <module name="microservice-config-server" />
         <module name="microservice-eureka-server" />
+        <module name="microservice-zuul-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="microservice" target="1.8" />
       <module name="microservice-config-server" target="1.8" />
       <module name="microservice-eureka-server" target="1.8" />
+      <module name="microservice-zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
