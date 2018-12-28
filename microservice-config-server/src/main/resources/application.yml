@@ -7,9 +7,10 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/cjx913/microservice.git
           default-label: master
           search-paths:
+            - /microservice-config-server/src/main/resources/config/
 #          username:
 #          password:
 
